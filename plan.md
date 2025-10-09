@@ -27,7 +27,7 @@ graph LR
     classDef black fill:#fff,stroke:#000,stroke-width:1.5px,color:#000;
     class A,B,C,D1,D2,D3,D4,E,F,G black;
 ```
-### 關鍵路徑：1 → 2 → 3 → 5→6 → 8 → 9
+#### 關鍵路徑：1 → 2 → 3 → 5→6 → 8 → 9
 
 
 ## 甘特圖
