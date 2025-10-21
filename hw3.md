@@ -62,6 +62,20 @@ graph TD
 ```
 
 ## 📊 使用案例圖
+```mermaid
+graph TD
+    A[臨床醫師] --- B1((人體骨架關鍵點偵測))
+    A --- B2((骨架特徵與變異數計算))
+    A --- B3((ADHD 機率結果輸出))
+    A --- B4((分析結果顯示))
+    A --- B5((病歷管理))
+
+
+    classDef actor fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef usecase fill:#bbf,stroke:#333,stroke-width:1px,rx:20,ry:20;
+    class A actor;
+    class B1,B2,B3,B4 usecase;
+```
 
 ## :wrench: 使用案例說明
 ### 使用案例 1：偵測骨架關鍵點
