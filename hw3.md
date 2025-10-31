@@ -60,39 +60,8 @@ graph TD
     B5 --> C12[依時間或關鍵字查詢]
     B5 --> C13[歷史資料比對]
 ```
-## 📊 使用案例圖
-```mermaid
-graph TD
-    A[臨床醫師] --- B1((人體骨架關鍵點偵測))
-    A --- B2((骨架特徵與變異數計算))
-    A --- B3((ADHD 機率結果輸出))
-    A --- B4((分析結果顯示))
-    A --- B5((病歷管理))
+## 📊 使用案例圖1
 
-
-    classDef actor fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef usecase fill:#bbf,stroke:#333,stroke-width:1px,rx:20,ry:20;
-    class A actor;
-    class B1,B2,B3,B4 usecase;
-```
-
-```mermaid
-%% ADHD 診斷輔助系統的使用案例圖（用 flowchart 模擬）
-flowchart LR
-    A[臨床醫師 👨‍⚕️] --> B(即時骨架偵測)
-    A --> C(骨架特徵計算)
-    A --> D(ADHD 機率預測)
-    A --> E(分析結果即時顯示)
-    A --> F(病歷管理與搜尋)
-
-    subgraph 系統邊界 ["ADHD診斷輔助系統"]
-        B
-        C
-        D
-        E
-        F
-    end
-```
 
 ## :wrench: 使用案例說明
 ### 使用案例 1：偵測骨架關鍵點
