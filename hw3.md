@@ -113,7 +113,7 @@ graph TD
  | 主要流程 | 1. 系統自動載入最新分析結果<br> 2. 顯示 ADHD 機率折線圖<br> 3. 顯示特徵變異數視覺化圖表<br> 4. 使用者可即時觀察狀態變化 |
 
 ## 使用案例圖 5
-![use_case5](Use_case5.drawio.png)
+![use_case5](use_case5.drawio.png)
 
 ## 使用案例 ５ 說明
  ### 使用案例 5：病歷管理與搜尋
